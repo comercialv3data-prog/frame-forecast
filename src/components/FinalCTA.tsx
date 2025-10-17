@@ -9,7 +9,7 @@ const FinalCTA = () => {
         </h2>
         <p className="text-lg mb-12 opacity-95 leading-relaxed max-w-3xl mx-auto">
           Vamos conectar o V3DATA aos seus sistemas e mostrar exatamente onde sua operação está 
-          sangrando e como podemos recuperar sua margem em 30 dias. <br />
+          perdendo margem e quais oportunidades de melhoria existem. <br />
           <strong>Vagas limitadas por mês.</strong>
         </p>
 
