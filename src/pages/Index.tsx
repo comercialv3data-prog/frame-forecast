@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import RealitySection from "@/components/RealitySection";
+import DashboardSection from "@/components/DashboardSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import AlertsSection from "@/components/AlertsSection";
 import IntegrationSection from "@/components/IntegrationSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <main>
         <Hero />
         <RealitySection />
+        <DashboardSection />
         <ComparisonSection />
         <AlertsSection />
         <IntegrationSection />

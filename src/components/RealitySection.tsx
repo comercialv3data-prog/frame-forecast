@@ -28,11 +28,11 @@ const RealitySection = () => {
     <section className="gradient-subtle py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-primary-dark">
-          A realidade de quem fatura acima de R$ 50M/ano: o "Erro Silencioso"
+          Por que a gestão te escapa das mãos?
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-16 max-w-3xl mx-auto">
-          Você sabe exatamente onde está cada real investido na obra? Ou descobre tarde demais, 
-          na medição mensal, quando já virou prejuízo?
+          Você passa mais tempo coletando informação do que decidindo. Quando finalmente tem os dados, 
+          a janela de correção já fechou. O problema não é falta de esforço - é falta de visão do todo.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

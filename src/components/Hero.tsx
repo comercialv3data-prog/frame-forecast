@@ -15,13 +15,14 @@ const Hero = () => {
         </div>
         
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          <span className="text-accent-light">IA + Gestão de Obras:</span> Transforme dados em{" "}
-          <span className="text-accent-light">decisões executivas</span>
+          <span className="text-accent-light">Dashboard Inteligente + IA:</span> Visão 360° da empresa com{" "}
+          <span className="text-accent-light">decisões em tempo real</span>
         </h1>
         
         <p className="text-lg md:text-xl mb-12 opacity-95 max-w-3xl mx-auto leading-relaxed">
-          Descubra AGORA onde o custo da sua construção está sangrando e recupere 15% da sua margem. 
-          A IA vira seu Gerente de Projetos Sênior 24/7.
+          Um dashboard que mostra TUDO: todas as obras, todos os setores, todos os números. 
+          A IA funciona como seu Analista Sênior 24/7, conhece cada detalhe da operação, 
+          avisa quando algo sai da rota e já mostra as soluções. Gestão sempre no seu controle.
         </p>
 
         <div className="relative max-w-4xl mx-auto mb-12 aspect-video bg-black/20 rounded-xl overflow-hidden border-2 border-accent/30 group cursor-pointer">
