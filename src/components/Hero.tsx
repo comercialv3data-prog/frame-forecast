@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -37,20 +38,21 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link to="/dashboard/financeiro">
+            <Button 
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-white px-10 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+            >
+              Ver Dashboards Demo
+            </Button>
+          </Link>
           <Button 
             onClick={() => scrollToSection('final-cta')}
-            size="lg"
-            className="bg-accent hover:bg-accent/90 text-white px-10 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-          >
-            Agendar Diagnóstico Grátis
-          </Button>
-          <Button 
-            onClick={() => scrollToSection('alerts')}
             size="lg"
             variant="outline"
             className="border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-6 text-base font-semibold transition-all duration-300"
           >
-            Ver Exemplos de Alertas
+            Agendar Diagnóstico
           </Button>
         </div>
       </div>
