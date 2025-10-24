@@ -49,8 +49,7 @@ const Hero = () => {
           <Button 
             onClick={() => scrollToSection('final-cta')}
             size="lg"
-            variant="outline"
-            className="border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-6 text-base font-semibold transition-all duration-300"
+            className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-10 py-6 text-base font-semibold transition-all duration-300"
           >
             Agendar Diagnóstico
           </Button>
