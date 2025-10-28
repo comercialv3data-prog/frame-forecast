@@ -80,12 +80,12 @@ const DashboardSection = () => {
             
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">2. IA IDENTIFICA</div>
-              <p className="text-sm">A IA está alinhada com suas metas e padrões, avisa quando tem algum desvio e dá contexto do motivo. Ex: obra C está 15% acima do custo previsto. Não foi feita a compra antecipada de Aço como foi sugerido mês passado</p>
+              <p className="text-sm">A IA está alinhada com suas metas e padrões, avisa quando tem algum desvio e dá contexto do motivo. Ex: obra C está 15% acima do custo previsto.<br />Não foi feita a compra antecipada de Aço como foi sugerido mês passado</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">3. SOLUÇÕES PRONTAS</div>
-              <p className="text-sm">IA sugere: Fornecedor B tem mesmo produto 18% mais barato. Estimativa de economia: R$ 34k no mês, porém cliente demora para entregar, comprar com prazo maior</p>
+              <p className="text-sm">IA sugere: Fornecedor B tem mesmo produto 18% mais barato. Estimativa de economia: R$ 34k no mês.<br />Porém cliente demora para entregar, comprar com prazo maior</p>
             </div>
           </div>
           
