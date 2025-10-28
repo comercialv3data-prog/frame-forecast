@@ -75,17 +75,17 @@ const DashboardSection = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">1. VISÃO COMPLETA</div>
-              <p className="text-sm">Dashboard mostra status de todas as 12 obras simultaneamente, com indicadores de saúde financeira e produtividade</p>
+              <p className="text-sm">Gestão à vista (dashboard) do Financeiro, RH, Obras, Suprimentos</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">2. IA IDENTIFICA</div>
-              <p className="text-sm">IA detectou: Obra C está 15% acima do custo previsto. Motivo: fornecedor aumentou preço de argamassa em 22%</p>
+              <p className="text-sm">A IA está alinhada com suas metas e padrões, avisa quando tem algum desvio e dá contexto do motivo. Ex: obra C está 15% acima do custo previsto. Não foi feita a compra antecipada de Aço como foi sugerido mês passado</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">3. SOLUÇÕES PRONTAS</div>
-              <p className="text-sm">IA sugere: Fornecedor B tem mesmo produto 18% mais barato. Estimativa de economia: R$ 34k no mês</p>
+              <p className="text-sm">IA sugere: Fornecedor B tem mesmo produto 18% mais barato. Estimativa de economia: R$ 34k no mês, porém cliente demora para entregar, comprar com prazo maior</p>
             </div>
           </div>
           
