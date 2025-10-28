@@ -25,17 +25,17 @@ const features = [
 
 const DashboardSection = () => {
   return (
-    <section className="bg-white py-20 px-4">
+    <section className="bg-white py-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-primary-dark">
           Dashboard Inteligente: Toda a Empresa na Sua Mão
         </h2>
-        <p className="text-center text-muted-foreground text-lg mb-16 max-w-3xl mx-auto">
+        <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
           Imagine ter um painel único onde você vê TUDO: cada obra, cada setor, cada real investido. 
           E uma IA que entende todos os números, avisa quando algo está errado e sugere o que fazer.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -75,7 +75,7 @@ const DashboardSection = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
               <div className="text-accent-light font-bold mb-2">1. VISÃO COMPLETA</div>
-              <p className="text-sm">Gestão à vista (dashboard) do Financeiro, RH, Obras, Suprimentos</p>
+              <p className="text-sm">Receba relatórios diários ou semanais direto no WhatsApp, alertas de desvios em tempo real e tire dúvidas de qualquer lugar. Seu analista sênior no bolso, disponível 24/7.</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">

@@ -29,9 +29,9 @@ const alerts = [
 
 const AlertsSection = () => {
   return (
-    <section id="alerts" className="gradient-subtle py-20 px-4">
+    <section id="alerts" className="gradient-subtle py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-primary-dark">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary-dark">
           Exemplos reais de Alertas Inteligentes da IA
         </h2>
 

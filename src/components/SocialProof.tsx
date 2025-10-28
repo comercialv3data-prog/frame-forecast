@@ -2,9 +2,9 @@ import clientsLogos from "@/assets/clients-logos.png";
 
 const SocialProof = () => {
   return (
-    <section className="bg-gradient-to-br from-primary-dark to-primary py-20 px-4">
+    <section className="bg-gradient-to-br from-primary-dark to-primary py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-left mb-12">
+        <div className="text-left mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Nossos clientes
           </h2>
