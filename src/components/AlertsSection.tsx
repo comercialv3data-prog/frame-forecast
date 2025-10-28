@@ -2,33 +2,27 @@ import { AlertTriangle, DollarSign, TrendingUp } from "lucide-react";
 
 const alerts = [
   {
-    icon: AlertTriangle,
-    label: "⚠️ Produtividade e Prazo",
-    title: "Etapa 3 (Estrutura) 28% abaixo do cronograma",
-    details: [
-      { label: "Motivo:", value: "Falta de insumo X desde ontem" },
-      { label: "Impacto:", value: "Atraso de 5 dias se não corrigir hoje" },
-      { label: "Ação sugerida:", value: "Revisar compra com Fornecedor (já está preparada no sistema)" }
-    ]
-  },
-  {
     icon: DollarSign,
-    label: "💸 Fluxo de Caixa / Desperdício",
-    title: "R$ 47 mil em argamassa parado há 52 dias",
+    label: "💸 Suprimentos",
+    title: "R$ 127k em compras não planejadas nos últimos 15 dias",
     details: [
-      { label: "Motivo:", value: "Obra B paralisada por licença ambiental" },
-      { label: "Impacto:", value: "Capital congelado. Necessidade de realocação imediata." },
-      { label: "Ação sugerida:", value: "Vender ou remanejar estoque para Obra C que inicia semana que vem" }
+      { label: "Impacto:", value: "Fluxo de caixa comprometido em 18%" }
     ]
   },
   {
     icon: TrendingUp,
-    label: "📈 Margem por m²",
-    title: "Custo m² do Bloco Y 7% acima do orçado",
+    label: "📈 Margem",
+    title: "Cliente Incorporadora Horizonte: margem média de 18% vs 12% no contrato atual",
     details: [
-      { label: "Motivo:", value: "Produtividade da equipe 15% maior. Custo/benefício melhor que o previsto." },
-      { label: "Impacto:", value: "O custo total será otimizado, mantendo a qualidade." },
-      { label: "Ação sugerida:", value: "Manter processo e analisar a expansão para outros blocos." }
+      { label: "Custo 22% acima da média histórica:", value: "Investigar custo com aço e cimento" }
+    ]
+  },
+  {
+    icon: AlertTriangle,
+    label: "⚠️ RH e Produtividade",
+    title: "Obra Residencial Norte: turnover de 35% + absenteísmo de 8% no último trimestre",
+    details: [
+      { label: "Impacto:", value: "Produtividade caiu 23% e prazo atrasou 26 dias" }
     ]
   }
 ];
