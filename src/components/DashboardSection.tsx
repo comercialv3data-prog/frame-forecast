@@ -27,12 +27,14 @@ const DashboardSection = () => {
   return (
     <section className="bg-white py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-primary-dark">
-          Dashboard Inteligente: Toda a Empresa na Sua Mão
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-primary-dark">
+          Dashboard Inteligente + IA
         </h2>
+        <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 text-primary-dark">
+          Visão 360° da empresa com decisões em tempo real
+        </h3>
         <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
-          Imagine ter um painel único onde você vê TUDO: cada obra, cada setor, cada real investido. 
-          E uma IA que entende todos os números, avisa quando algo está errado e sugere o que fazer.
+          Um dashboard que mostra TUDO: todas as obras, todos os setores, todos os números. A IA funciona como seu Analista Sênior 24/7, conhece cada detalhe da operação, avisa quando algo sai da rota e já mostra as soluções. Gestão sempre no seu controle.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
